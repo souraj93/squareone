@@ -1922,6 +1922,14 @@ body.elementor-page-12 #lqd-site-content {
     }
 }
 
+.h-full {
+    height: 100% !important;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
 @media(max-width:1200px) {
     .elementor-12 .elementor-element.elementor-element-df10267 {
         padding: 30% 0% 3% 0%;
@@ -1974,6 +1982,10 @@ body.elementor-page-12 #lqd-site-content {
 
     .elementor-12 .elementor-element.elementor-element-790a146>.elementor-element-populated {
         padding: 5% 7% 5% 7%;
+    }
+
+    .hide-before-1200 {
+        display: none !important;
     }
 }
 

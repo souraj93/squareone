@@ -1930,6 +1930,13 @@ body.elementor-page-12 #lqd-site-content {
     width: 100% !important;
 }
 
+.testimonial-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto !important;
+}
+
 @media(max-width:1200px) {
     .elementor-12 .elementor-element.elementor-element-df10267 {
         padding: 30% 0% 3% 0%;

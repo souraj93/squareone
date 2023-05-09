@@ -1937,6 +1937,10 @@ body.elementor-page-12 #lqd-site-content {
     margin: 0 auto !important;
 }
 
+.above-1024 {
+    display: none;
+}
+
 @media(max-width:1200px) {
     .elementor-12 .elementor-element.elementor-element-df10267 {
         padding: 30% 0% 3% 0%;
@@ -2130,6 +2134,10 @@ body.elementor-page-12 #lqd-site-content {
 
     .h-below-1024 {
         display: none;
+    }
+
+    .above-1024 {
+        display: block;
     }
 }
 

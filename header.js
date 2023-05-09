@@ -331,6 +331,10 @@ class Header extends HTMLElement {
           .elementor-7919 .elementor-element.elementor-element-619bddd7 .btn {
             font-size: 13px;
           }
+
+          .hide-before-1200 {
+            display: none !important;
+          }
         }
 
         @media(max-width:1024px) {
@@ -1274,8 +1278,10 @@ class Header extends HTMLElement {
                       <a class="navbar-brand d-flex p-0 pos-rel" href="./index.html"
                         rel="home"><span class="navbar-brand-inner post-rel"> <img class="logo-sticky"
                             src="./assets/logo.png"
+                            width="50px"
                             alt="Architecture - Interior Design 2"> <img class="logo-default"
                             src="./assets/logo.png"
+                            width="50px"
                             alt="Architecture - Interior Design 2"></span></a>
                     </div>
                   </div>
@@ -1301,39 +1307,95 @@ class Header extends HTMLElement {
                             <a href="./index.html">Home</a>
                           </li>
                           <li id="menu-item-8113"
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8113">
-                            <a href="">Our Services<span class="submenu-expander" style="display: inline-flex"><svg
-                            xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
-                            style="width: 1em; height: 1em;">
-                            <path fill="currentColor"
-                              d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
-                            </path>
-                          </svg></span></a>
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
+                            <a href="">Our Services<span class="submenu-expander"><svg
+                                  xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                  style="width: 1em; height: 1em;">
+                                  <path fill="currentColor"
+                                    d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                  </path>
+                                </svg></span><span
+                                class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                  class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                              </span></a>
                             <ul class="nav-item-children">
-                              <li id="menu-item-8392"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392">
-                                <a href="./kitchen.html">Kitchen​</a>
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Residential<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./kitchen.html">Kitchen</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./bedroom.html">Bedroom</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Living Room​</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Tv Unit</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Door</a>
+                                  </li>
+                                </ul>
                               </li>
-                              <li id="menu-item-8393"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio current-menu-item menu-item-8393">
-                                <a href="./bedroom.html"
-                                  aria-current="page">Bedroom</a>
-                              </li>
-                              <li id="menu-item-8394"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                                <a href="./restaurant.html">Restaurant</a>
-                              </li>
-                              <li id="menu-item-8395"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                <a href="./living-room.html">Living Room​</a>
-                              </li>
-                              <li id="menu-item-8396"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                <a href="./tv-unit.html">Tv Unit</a>
-                              </li>
-                              <li id="menu-item-8397"
-                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                <a href="./door.html">Door</a>
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Commercial<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
+                                    <a href="./restaurant.html">Restaurant</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Community Hall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Saloons</a>
+                                  </li>
+                                </ul>
                               </li>
                             </ul>
                           </li>
@@ -1672,8 +1734,10 @@ class Header extends HTMLElement {
                       <a class="navbar-brand d-flex p-0 pos-rel" href="./index.html"
                         rel="home"><span class="navbar-brand-inner post-rel"> <img class="logo-sticky"
                             src="./assets/logo.png"
+                            width="50px"
                             alt="Architecture - Interior Design 2"> <img class="logo-default"
                             src="./assets/logo.png"
+                            width="50px"
                             alt="Architecture - Interior Design 2"></span></a>
                     </div>
                   </div>
@@ -1858,48 +1922,99 @@ class Header extends HTMLElement {
                                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8262">
                                                   <a href="./index.html">Home</a>
                                                 </li>
-                                                <li
-                                                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8113">
-                                                  <a href="">Our Services<span class="submenu-expander" style="display: inline-flex"><svg
-                                                  xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
-                                                  style="width: 1em; height: 1em;">
-                                                  <path fill="currentColor"
-                                                    d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
-                                                  </path>
-                                                </svg></span></a>
-                                                  <ul class="nav-item-children">
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392">
-                                                      <a
-                                                        href="./kitchen.html">Kitchen​</a>
-                                                    </li>
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio current-menu-item menu-item-8393">
-                                                      <a href="./bedroom.html"
-                                                        aria-current="page">Bedroom</a>
-                                                    </li>
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                                                      <a
-                                                        href="./restaurant.html">Restaurant</a>
-                                                    </li>
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                                      <a
-                                                        href="./living-room.html">Living Room​</a>
-                                                    </li>
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                                      <a
-                                                        href="./tv-unit.html">Tv Unit</a>
-                                                    </li>
-                                                    <li
-                                                      class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                                      <a
-                                                        href="./door.html">Door</a>
-                                                    </li>
-                                                  </ul>
-                                                </li>
+                                                <li id="menu-item-8113"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
+                            <a href="">Our Services<span class="submenu-expander"><svg
+                                  xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                  style="width: 1em; height: 1em;">
+                                  <path fill="currentColor"
+                                    d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                  </path>
+                                </svg></span><span
+                                class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                  class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                              </span></a>
+                            <ul class="nav-item-children">
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Residential<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./kitchen.html">Kitchen</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./bedroom.html">Bedroom</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Living Room​</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Tv Unit</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Door</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Commercial<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
+                                    <a href="./restaurant.html">Restaurant</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Community Hall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Saloons</a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
                                               </ul>
                                             </div>
                                           </div>
@@ -2204,6 +2319,7 @@ class Header extends HTMLElement {
             <span class="navbar-brand-inner">
               <img class="logo-default"
                 src="./assets/logo.png"
+                width="50px"
                 alt="Architecture - Interior Design 2">
             </span>
           </a>
@@ -2215,37 +2331,99 @@ class Header extends HTMLElement {
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8262">
                 <a href="./index.html">Home</a>
               </li>
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8113">
-                <a href="">Our Services<span class="submenu-expander" style="display: inline-flex"><svg
-                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
-                      style="width: 1em; height: 1em;">
-                      <path fill="currentColor"
-                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
-                      </path>
-                    </svg></span></a>
-                <ul class="nav-item-children">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392">
-                    <a href="/kitchen.html">Kitchen​</a>
-                  </li>
-                  <li
-                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio current-menu-item menu-item-8393">
-                    <a href="./bedroom.html" aria-current="page">Bedroom</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                    <a href="./restaurant.html">Restaurant</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                    <a href="./living-room.html">Living Room​</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                    <a href="./tv-unit.html">Tv Unit</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                    <a href="./door.html">Door</a>
-                  </li>
-                </ul>
-              </li>
+              <li id="menu-item-8113"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
+                            <a href="">Our Services<span class="submenu-expander"><svg
+                                  xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                  style="width: 1em; height: 1em;">
+                                  <path fill="currentColor"
+                                    d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                  </path>
+                                </svg></span><span
+                                class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                  class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                              </span></a>
+                            <ul class="nav-item-children">
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Residential<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./kitchen.html">Kitchen</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
+                                    <a href="./bedroom.html">Bedroom</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Living Room​</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Tv Unit</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Door</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li
+                                class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8392 menu-item-has-children">
+                                <a href="">Commercial<span class="submenu-expander"><svg
+                                      xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewbox="0 0 21 32"
+                                      style="width: 1em; height: 1em;">
+                                      <path fill="currentColor"
+                                        d="M10.5 18.375l7.938-7.938c.562-.562 1.562-.562 2.125 0s.562 1.563 0 2.126l-9 9c-.563.562-1.5.625-2.063.062L.437 12.562C.126 12.25 0 11.876 0 11.5s.125-.75.438-1.063c.562-.562 1.562-.562 2.124 0z">
+                                      </path>
+                                    </svg></span><span
+                                    class="link-icon d-inline-flex align-items-center hide-if-empty right-icon hide-before-1200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                  </span></a>
+                                <ul class="nav-item-children">
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
+                                    <a href="./restaurant.html">Restaurant</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./living-room.html">Community Hall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
+                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./door.html">Saloons</a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
             </ul>
           </div>
         </div>

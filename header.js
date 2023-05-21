@@ -1336,15 +1336,15 @@ class Header extends HTMLElement {
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Community Hall</a>
+                                    <a href="./community-hall.html">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                    <a href="./shopping-mall.html">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Saloons</a>
+                                    <a href="./saloon.html">Saloons</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1652,15 +1652,15 @@ class Header extends HTMLElement {
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Community Hall</a>
+                                    <a href="./community-hall.html">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                    <a href="./shopping-mall.html">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Saloons</a>
+                                    <a href="./saloon.html">Saloons</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1842,15 +1842,15 @@ class Header extends HTMLElement {
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Community Hall</a>
+                                    <a href="./community-hall.html">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Shopping Mall</a>
+                                    <a href="./shopping-mall.html">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Saloons</a>
+                                    <a href="./saloon.html">Saloons</a>
                                   </li>
                                 </ul>
                               </li>

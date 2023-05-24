@@ -1304,12 +1304,20 @@ class Header extends HTMLElement {
                                     <a href="./living-room.html">Living Room​</a>
                                   </li>
                                   <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./bathroom.html">Bathroom​</a>
+                                  </li>
+                                  <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
                                     <a href="./tv-unit.html">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
                                     <a href="./door.html">Door</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./puja-unit.html">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1620,12 +1628,20 @@ class Header extends HTMLElement {
                                     <a href="./living-room.html">Living Room​</a>
                                   </li>
                                   <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./bathroom.html">Bathroom​</a>
+                                  </li>
+                                  <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
                                     <a href="./tv-unit.html">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
                                     <a href="./door.html">Door</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./puja-unit.html">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1810,12 +1826,20 @@ class Header extends HTMLElement {
                                     <a href="./living-room.html">Living Room​</a>
                                   </li>
                                   <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
+                                    <a href="./bathroom.html">Bathroom​</a>
+                                  </li>
+                                  <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
                                     <a href="./tv-unit.html">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
                                     <a href="./door.html">Door</a>
+                                  </li>
+                                  <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
+                                    <a href="./puja-unit.html">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>

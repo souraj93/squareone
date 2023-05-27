@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header class="header site-header main-header    is-not-stuck lqd-smart-sticky-header" data-sticky-header="true"
       data-sticky-values-measured="false" data-sticky-options="{&quot;smartSticky&quot;:true}" id="header"
-      itemscope="itemscope" itemtype="https://schema.org/WPHeader" style="padding-top: 15px;">
+      itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
       <style id="elementor-post-7919">
         .elementor-7919 .elementor-element.elementor-element-208375d>.elementor-container>.elementor-column>.elementor-widget-wrap {
           align-content: center;
@@ -377,7 +377,7 @@ class Header extends HTMLElement {
       <div data-elementor-type="wp-post" data-elementor-id="7919" class="elementor elementor-7919">
         <section
           class="elementor-section elementor-top-section elementor-element elementor-element-208375d elementor-section-full_width elementor-section-content-middle elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
-          data-id="208375d" data-element_type="section">
+          data-id="208375d" data-element_type="section" style="padding-top: 15px; padding-bottom: 15px;">
           <div class="elementor-container elementor-column-gap-no">
             <div
               class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7e6516b0"

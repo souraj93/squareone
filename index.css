@@ -779,6 +779,44 @@ h1.entry-title {
     color: #000000A1;
 }
 
+/* .elementor-12 .elementor-element.elementor-element-af420f1 .carousel-item {
+    width: calc(100% / 1);
+    flex: 0 0 auto;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1 .carousel-items {
+    margin-inline-start: -0px;
+    margin-inline-end: -0px;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1 .carousel-dots-mobile.carousel-dots-mobile-outside .flickity-page-dots {
+    margin-top: 1.5em;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1.carousel-nav .flickity-button svg {
+    fill: #000000;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1.carousel-nav .flickity-button {
+    color: #000000;
+    background: #FFFFFF;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1.carousel-nav .flickity-button.previous:after {
+    background: #000000;
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1.carousel-nav .flickity-button:hover svg {
+    fill: var(--e-global-color-accent);
+  }
+
+  .elementor-12 .elementor-element.elementor-element-af420f1.carousel-nav .flickity-button:hover {
+    color: var(--e-global-color-accent);
+    background: var(--e-global-color-secondary);
+  } */
+
 .elementor-12 .elementor-element.elementor-element-ebcd09a {
     width: 320px;
     max-width: 320px;

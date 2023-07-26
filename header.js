@@ -1226,7 +1226,7 @@ class Header extends HTMLElement {
                   data-id="180e0656" data-element_type="widget" data-widget_type="ld_header_image.default">
                   <div class="elementor-widget-container">
                     <div class="module-logo d-flex navbar-brand-plain">
-                      <a class="navbar-brand d-flex p-0 pos-rel" href="./index.html"
+                      <a class="navbar-brand d-flex p-0 pos-rel" href="./index"
                         rel="home"><span class="navbar-brand-inner post-rel"> <img class="logo-sticky"
                             src="./assets/logo.png"
                             width="50px"
@@ -1255,7 +1255,7 @@ class Header extends HTMLElement {
                           data-submenu-options='{"toggleType":"fade","handler":"mouse-in-out"}'>
                           <li id="menu-item-8262"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8262">
-                            <a href="./index.html">Home</a>
+                            <a href="./index">Home</a>
                           </li>
                           <li id="menu-item-8113"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
@@ -1293,31 +1293,31 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./kitchen.html">Kitchen</a>
+                                    <a href="./kitchen">Kitchen</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./bedroom.html">Bedroom</a>
+                                    <a href="./bedroom">Bedroom</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Living Room​</a>
+                                    <a href="./living-room">Living Room​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./bathroom.html">Bathroom​</a>
+                                    <a href="./bathroom">Bathroom​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Tv Unit</a>
+                                    <a href="./tv-unit">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Door</a>
+                                    <a href="./door">Door</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./puja-unit.html">Puja Unit</a>
+                                    <a href="./puja-unit">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1340,19 +1340,19 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                                    <a href="./restaurant.html">Restaurant</a>
+                                    <a href="./restaurant">Restaurant</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./community-hall.html">Community Hall</a>
+                                    <a href="./community-hall">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./shopping-mall.html">Shopping Mall</a>
+                                    <a href="./shopping-mall">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./saloon.html">Saloons</a>
+                                    <a href="./saloon">Saloons</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1392,7 +1392,7 @@ class Header extends HTMLElement {
                   data-id="2534bbd7" data-element_type="widget" data-widget_type="ld_header_image.default">
                   <div class="elementor-widget-container">
                     <div class="module-logo d-flex navbar-brand-plain">
-                      <a class="navbar-brand d-flex p-0 pos-rel" href="./index.html"
+                      <a class="navbar-brand d-flex p-0 pos-rel" href="./index"
                         rel="home"><span class="navbar-brand-inner post-rel"> <img class="logo-sticky"
                             src="./assets/logo.png"
                             width="50px"
@@ -1579,7 +1579,7 @@ class Header extends HTMLElement {
                                                 data-submenu-options='{"toggleType":"slide","handler":"click"}'>
                                                 <li
                                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8262">
-                                                  <a href="./index.html">Home</a>
+                                                  <a href="./index">Home</a>
                                                 </li>
                                                 <li id="menu-item-8113"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
@@ -1617,31 +1617,31 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./kitchen.html">Kitchen</a>
+                                    <a href="./kitchen">Kitchen</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./bedroom.html">Bedroom</a>
+                                    <a href="./bedroom">Bedroom</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Living Room​</a>
+                                    <a href="./living-room">Living Room​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./bathroom.html">Bathroom​</a>
+                                    <a href="./bathroom">Bathroom​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Tv Unit</a>
+                                    <a href="./tv-unit">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Door</a>
+                                    <a href="./door">Door</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./puja-unit.html">Puja Unit</a>
+                                    <a href="./puja-unit">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1664,19 +1664,19 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                                    <a href="./restaurant.html">Restaurant</a>
+                                    <a href="./restaurant">Restaurant</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./community-hall.html">Community Hall</a>
+                                    <a href="./community-hall">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./shopping-mall.html">Shopping Mall</a>
+                                    <a href="./shopping-mall">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./saloon.html">Saloons</a>
+                                    <a href="./saloon">Saloons</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1763,7 +1763,7 @@ class Header extends HTMLElement {
               </span>
             </span>
           </button>
-          <a class="navbar-brand d-flex pos-rel" href="./index.html" style="padding: 10px 0;">
+          <a class="navbar-brand d-flex pos-rel" href="./index" style="padding: 10px 0;">
             <span class="navbar-brand-inner">
               <img class="logo-default"
                 src="./assets/logo.png"
@@ -1777,7 +1777,7 @@ class Header extends HTMLElement {
             aria-expanded="false" role="navigation">
             <ul id="mobile-primary-nav" class="reset-ul lqd-mobile-main-nav main-nav nav">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8262">
-                <a href="./index.html">Home</a>
+                <a href="./index">Home</a>
               </li>
               <li id="menu-item-8113"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8113">
@@ -1815,31 +1815,31 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./kitchen.html">Kitchen</a>
+                                    <a href="./kitchen">Kitchen</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8393">
-                                    <a href="./bedroom.html">Bedroom</a>
+                                    <a href="./bedroom">Bedroom</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./living-room.html">Living Room​</a>
+                                    <a href="./living-room">Living Room​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./bathroom.html">Bathroom​</a>
+                                    <a href="./bathroom">Bathroom​</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./tv-unit.html">Tv Unit</a>
+                                    <a href="./tv-unit">Tv Unit</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./door.html">Door</a>
+                                    <a href="./door">Door</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./puja-unit.html">Puja Unit</a>
+                                    <a href="./puja-unit">Puja Unit</a>
                                   </li>
                                 </ul>
                               </li>
@@ -1862,19 +1862,19 @@ class Header extends HTMLElement {
                                 <ul class="nav-item-children">
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8394">
-                                    <a href="./restaurant.html">Restaurant</a>
+                                    <a href="./restaurant">Restaurant</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8395">
-                                    <a href="./community-hall.html">Community Hall</a>
+                                    <a href="./community-hall">Community Hall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8396">
-                                    <a href="./shopping-mall.html">Shopping Mall</a>
+                                    <a href="./shopping-mall">Shopping Mall</a>
                                   </li>
                                   <li
                                     class="menu-item menu-item-type-post_type menu-item-object-liquid-portfolio menu-item-8397">
-                                    <a href="./saloon.html">Saloons</a>
+                                    <a href="./saloon">Saloons</a>
                                   </li>
                                 </ul>
                               </li>

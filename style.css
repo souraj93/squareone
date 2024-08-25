@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.facebook {
+    background-color: #AF7B5B;
+}
+
+.instagram {
+    background-color: #AF7B5B;
+}
+
+.whatsapp {
+    background-color: #AF7B5B;
+}
+
+.call {
+    background-color: #AF7B5B;
+}
+
+.email {
+    background-color: #AF7B5B;
+}
+
+.location {
+    background-color: #AF7B5B;
+}
+
+.social-button i {
+    font-size: 24px;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
